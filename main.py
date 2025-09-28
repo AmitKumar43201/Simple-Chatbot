@@ -11,7 +11,7 @@ class AgentState(TypedDict):
 
 llm  = ChatGoogleGenerativeAI(
     model = 'gemini-2.0-flash',
-    google_api_key = "AIzaSyCwnj3Ji9LnHGyhi_fQ4ucA6fP-0-69i9I"
+    google_api_key = "API_KEY"
 )
 
 
